@@ -15,18 +15,18 @@
     <!-- link to our stylesheet -->
     <link rel="stylesheet" href="static/css/style.css">
 </head>
-<body>
+<body class="bg-dark">
     <!-- the wrapper class adds a bit of extra functionality to Bootstrap. 
     It helps group the elements (e.g., title, paragraph, table, and filters) and specifies the styling in our stylesheet -->
     <div class="wrapper">
         <!-- the navigation bar (or navbar), where we'll add the functionality to reset our table filters -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <!-- Style + Reset the webpage after a filter has been applied -->
             <a class="navbar-brand" href="index.html">UFO Sightings</a>    
         </nav>
         <!-- add the Jumbotron  -->
         <div class="jumbotron">
-            <h1>The Truth Is Out There</h1>
+            <h1 class="display-4">The Truth Is Out There</h1>
         </div>
         <!-- "container-fluid" ensure that elements span the width. 
         The "row" class makes sure that the title and paragraph will align neatly along the page  -->
@@ -52,19 +52,19 @@
                 <!-- filter -->
                 <div class="col-md-3">
                     <!-- HTML-specific field that acceps users input: a form. -->
-                    <form>
+                    <form class="bg-dark">
                         <p>Filter Search</p>
                         <!-- unordered list + style -->
-                        <ul class="list-group">
+                        <ul class="bg-dark list-group">
                             <!-- label + input -->
-                            <li class="list-group-item">
+                            <li class="bg-dark list-group-item">
                                 <label for="date">Enter Date</label>
                                 <input type="text" placeholder="1/10/2010" id="datetime" />
                             </li>
                             <!-- button -->
-                            <li class="list-group-item">
+                            <li class="bg-dark text-center list-group-item">
                                 <!-- 'filter-btn' defined in the js code -->
-                                <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>                        
+                                <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>                        
                             </li>
                         </ul>
                     </form>
@@ -93,5 +93,11 @@
             </div>
         </div>
     </div>
+
+    <!-- adding the data / order matters -->
+    <!-- D3.js allows the library to "listen" in on our code and react to user input -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
 </body>
 </html>
