@@ -15,7 +15,7 @@ The plan is to use **JavaScrip** to display the data as a table and to be able t
 The table displayed can ***listen and interact*** with the user through filters.    
 
 #### Initial table display
-Once the user accesses to the web page,  the user can find the the information unfiltered.
+Once the user accesses to the web page,  the user can find the information unfiltered.
 ![UFOs_initial](https://github.com/MarcoFernandez14/UFOs/blob/main/static/images/ufosWebApp_table_filters.png)
 
 #### Filtered table display
@@ -24,7 +24,7 @@ To reset the filters, the user has to click on 'UFO Sightings' at the left top o
 ![UFOs_filtered](https://github.com/MarcoFernandez14/UFOs/blob/main/static/images/ufosWebApp_filtered.png)
 
 ## Summary
-Even though the the webpage accomplishes its purpose, it is interesting to note:  
+Even though the webpage accomplishes its purpose, it is interesting to note:  
 
 #### Drawback:
 * The user has to know very specific words in order to be able to use the 'Shape' filter
