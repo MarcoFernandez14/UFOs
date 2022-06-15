@@ -12,7 +12,7 @@ The plan is to use **JavaScrip** to display the data as a table and to be able t
 ![UFOs](https://github.com/MarcoFernandez14/UFOs/blob/main/static/images/ufosWebApp_title_paragraph.png)
 
 ## Results
-The table displayed can ***listen and interacts*** with the user through filters.    
+The table displayed can ***listen and interact*** with the user through filters.    
 
 #### Initial table display
 Once the user accesses to the web page,  the user can find the the information unfiltered.
